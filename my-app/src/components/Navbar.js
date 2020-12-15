@@ -53,7 +53,7 @@ const menuItems = [
     },
     {
         listIcon: <AssignmentInd/>,
-        listText: "Resume",
+        listText: "Experience",
         listPath: "/resume"
     },
     {
@@ -70,7 +70,7 @@ const menuItems = [
 
 const Navbar = () => {
     const [state, setState] = useState({
-    right: false
+    left: false
     })
 
     const toggleSlider = (slider,open) => () => {
@@ -101,17 +101,17 @@ const Navbar = () => {
         <Box component="nav"> 
             <AppBar position = "static" style={{background: "#222"}}>
                 <Toolbar>
-                    <IconButton onClick={toggleSlider("right",true)}>
+                    <IconButton onClick={toggleSlider("left",true)}>
                     <ArrowBack style={{background: "tomato"}} />
                     </IconButton>
                     <Typography variant="h5" style={{color: "tomato"}}>
                         Portfolio
                     </Typography>
                     <MobileRightMenuSlider
-                     anchor="right"
-                     open={state.right}
-                     onClose={toggleSlider("right",false)} >
-                        {sideList("right")}
+                     anchor="left"
+                     open={state.left}
+                     onClose={toggleSlider("left",false)} >
+                        {sideList("left")}
                         <Footer/>
                     </MobileRightMenuSlider>
                 </Toolbar>

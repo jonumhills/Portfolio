@@ -28,7 +28,8 @@ const Footer = () => {
     <BottomNavigationAction 
         className={classes.root}
          style={{padding: 0}}
-            icon={<Instagram/>}
+            icon={<Instagram onClick={event =>  window.open('https://www.instagram.com/__manoj_s/', '_blank')}/>}
+            
       />  
         
     </BottomNavigation>
