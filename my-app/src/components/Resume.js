@@ -128,7 +128,7 @@ const Resume = () => {
                     (Sysfore)
                 </Typography>
                 <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
-                    Got exposure to Machine Learning, DeepLearning <Divider/>
+                    Got exposure to Machine Learning, DeepLearning <br/>
                     Worked on state of the art Algorithm-DenseNet
                 </Typography>
             </Box>
@@ -145,7 +145,7 @@ const Resume = () => {
                     (Wipro)
                 </Typography>
                 <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
-                    Worked on implementation of Warehouse Management System  <Divider/>    
+                    Worked on implementation of Warehouse Management System  <br/>    
                     Requirement Gathering, Designing Usecase scenarios and implementing it in full scale.
                 </Typography>
             </Box>

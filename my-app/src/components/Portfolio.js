@@ -3,6 +3,7 @@ import Navbar from "./Navbar";
 import {makeStyles} from "@material-ui/core";
 import project1 from "../images/avatar.jpg";
 import project2 from "../images/bgimg9.jpg";
+import project5 from "../images/jsrr_bg.png";
 import {
     Box,
     Grid,
@@ -53,16 +54,14 @@ const Portfolio= () => {
                         FlowerDex
                     </Typography>
                     <Typography  variant="body2" color="textSecondary" component="p">
-                        lailailailailailaialaialaialaialaialaialaialaoalao
+                        Pokedex:Pokemon :: Flowedex:Flower <br/>
+                        Domain: Machine learning, Web Scraping 
                     </Typography>
                 </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary">
-                        share
-                    </Button>
-                    <Button size="small" color="primary">
-                        Live Demo
+                    <Button size="small" color="primary" onClick={event =>  window.open('https://github.com/jonumhills/FlowerDex', '_blank')} >
+                        Github
                     </Button>
                 </CardActions>
             
@@ -146,16 +145,16 @@ const Portfolio= () => {
                         Card Details Recognition
                     </Typography>
                     <Typography  variant="body2" color="textSecondary" component="p">
-                        lailailailailailaialaialaial
+                        Getting useful information (Unique Id, name ...)
+                         from adhar and pan card by clicking a pic of it. <br/> 
+                        Tech: OpenCv, Flask, PyTesseract
+                        
                     </Typography>
                 </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary">
-                        share
-                    </Button>
-                    <Button size="small" color="primary">
-                        Live Demo
+                    <Button size="small" color="primary" onClick={event =>  window.open('https://github.com/jonumhills/OCR_Card_Details', '_blank')}>
+                        Github
                     </Button>
                 </CardActions>
             
@@ -170,23 +169,22 @@ const Portfolio= () => {
                 component="img"
                 alt="Project 5"
                 height="140"
-                image={project2}
+                image={project5}
                 ></CardMedia>
                 <CardContent>
                     <Typography gutterBottom variant="h5">
                         JSRR ACADEMY WEBSITE
                     </Typography>
                     <Typography  variant="body2" color="textSecondary" component="p">
-                        https://www.jsrracademy.in
+                        Dynamic Web Application for Academic institute <br/>
+                        Tech: React, Node
                     </Typography>
                 </CardContent>
                 </CardActionArea>
                 <CardActions>
-                    <Button size="small" color="primary">
-                        share
-                    </Button>
-                    <Button size="small" color="primary">
-                        Live Demo
+                    
+                    <Button size="small" color="primary" onClick={event =>  window.open('https://www.jsrracademy.in/', '_blank')}>
+                        Website
                     </Button>
                 </CardActions>
             
