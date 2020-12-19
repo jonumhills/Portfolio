@@ -135,18 +135,17 @@ const Resume = () => {
 
             <Typography variant="h2" className={`${classes.timeLineYear} ${classes.timeLineItem}`}>
                     2020
-                    (Sept - Present)
+                    (December - Present)
                 </Typography>
             <Box component="div" className={classes.timeLineItem}>
                 <Typography variant="h5" align="center" style={{color:"white"}}>
-                    Project Engineer
+                    Analyst
                 </Typography>
                 <Typography variant="body1" align="center" style={{color: "tomato"}}>
-                    (Wipro)
+                    (Ugam)
                 </Typography>
                 <Typography variant="subtitle1" align="center" style={{color: "tan"}}>
-                    Worked on implementation of Warehouse Management System  <br/>    
-                    Requirement Gathering, Designing Usecase scenarios and implementing it in full scale.
+                    
                 </Typography>
             </Box>
             

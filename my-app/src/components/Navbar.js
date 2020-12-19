@@ -19,12 +19,12 @@ import {
 } from "@material-ui/core";
 
 import {
-    ArrowBack,
     AssignmentInd,
     Home,
     Apps,
     ContactMail
 } from "@material-ui/icons";
+import MenuIcon from '@material-ui/icons/Menu';
 import avatar from "../images/avatar.jpg";
 
 //CSS STYLES
@@ -102,7 +102,7 @@ const Navbar = () => {
             <AppBar position = "static" style={{background: "#222"}}>
                 <Toolbar>
                     <IconButton onClick={toggleSlider("left",true)}>
-                    <ArrowBack style={{background: "tomato"}} />
+                    <MenuIcon style={{color: "tomato"}} />
                     </IconButton>
                     <Typography variant="h5" style={{color: "tomato"}}>
                         Portfolio
